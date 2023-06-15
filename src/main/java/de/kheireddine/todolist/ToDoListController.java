@@ -9,6 +9,7 @@ public class ToDoListController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+
+        welcomeText.setText("Welcome to your Todo-List!");
     }
 }
