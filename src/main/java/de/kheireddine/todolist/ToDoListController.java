@@ -5,11 +5,11 @@ import javafx.scene.control.Label;
 
 public class ToDoListController {
     @FXML
-    private Label welcomeText;
+    private Label startText;
 
     @FXML
     protected void onHelloButtonClick() {
 
-        welcomeText.setText("Welcome to your Todo-List!");
+        startText.setText("Welcome to your Todo-List! Press again 'start'!");
     }
 }
